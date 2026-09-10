@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Dataset -- downloaded automatically by METRLADatasetLoader on first run.
+# Not committed: large, and better fetched from the original source.
+data/
+
+# Model checkpoints and generated HTML output.
+# results/ and figures/ ARE committed -- they are small and let a reader
+# verify the reported numbers without re-running the full pipeline.
+output/
+*.pt
+*.pth
+
+# Logs
+*.log
+training_log.txt
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
